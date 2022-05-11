@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# file created by Microsoft Windows when using Windows Explorer
+desktop.ini
+
+# Same but for Apple Macintosh
+.DS_Store
+
