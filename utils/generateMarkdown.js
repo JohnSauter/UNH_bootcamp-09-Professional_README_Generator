@@ -33,10 +33,13 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+/* Not needed because the badge contains the link.  */
 function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+/* Not needed because we are substituting the badge directly into
+ * the README.md file.  */
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
@@ -44,7 +47,12 @@ function generateMarkdown(data) {
   /* Create a key for the license badge. */
   const license_badge = renderLicenseBadge(data.license);
   data["license_badge"] = license_badge;
+
+  /* Read the template from the file system.  Keeping the template
+   * in a separate file makes it easier to modify.  */
   const template = fs.readFileSync("./assets/template.md", "utf-8");
+
+  /* Use Mustache to edit the answers into the template.  */
   const result = Mustache.render (template, data);
   return result;
 };

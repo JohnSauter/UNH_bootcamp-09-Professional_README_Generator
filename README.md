@@ -1,8 +1,8 @@
-# name
+# Professional README Generator
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 ## Description
 
-description
+construct a README file from answers to questions
 
 ## Table of Contents
 
@@ -12,23 +12,23 @@ description
 
 ## Installation
 
-npm install name
+download from github
 
 ## Usage
 
-use it
+answer the questions then upload the file to his GitHub project
 
 ## License
 GNU AGPLv3
 
 ## Contributing
-give me money
+send me e-mail
 
 ## Tests
-don&#39;t
+run it with various answers to the questions
 
 ## Features
-none
+some information is optional, and if not provided the README section will be omitted
 ## Questions
 
 If you have any questions, contact me.

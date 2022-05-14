@@ -85,13 +85,26 @@ const questions = [
         message: "What is your e-mail address?",
         default: "",
         when: true
+    },
+    {
+        type: "input",
+        name: "result_file_name",
+        message: "What name would you like for the README file?",
+        default: "NEWREADME.md",
+        when: true
     }
 
 
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    if (fileName) {
+        fs.writeFile(fileName, data, err => file_write_complete (err));
+    } else {
+        file_write_complete ("no file name specified");
+    }
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -102,8 +115,10 @@ function init() {
  * a template.  */
 function process_answers (answers) {
     const result = generate_markdown (answers);
-    fs.writeFile("README.md", result, err => file_write_complete (err));
+    writeToFile(answers.result_file_name, result);
 }
+
+/* Function to handle completion of the write of README.md  */
 function file_write_complete (err) {
     if (err) {
         console.log(err);
