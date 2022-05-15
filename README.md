@@ -9,6 +9,7 @@ Construct a README file from answers to questions.
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Walkthrough](#walkthrough)
 
 ## Installation
 
@@ -16,13 +17,13 @@ Download from GitHub.  See below for the URL.
 
 ## Usage
 
-Answer the questions, examine and improve the generated README file, then include it in your project.
+Type node index.js to run the program.  Answer the questions, examine and improve the generated README file, then include it in your project.
 
 ## License
 GNU AGPLv3
 
 ## Contributing
-If you wish to continbute to ths project, send me e-mail.  My e-mail address is below.
+If you wish to contribute to ths project, send me e-mail.  My e-mail address is below.
 
 ## Tests
 You can test this package by running it with various answers to the questions.
@@ -36,6 +37,7 @@ My e-mail address is John_Sauter@systemeyescomputerstore.com.
 My github user name is JohnSauter.  See my profile at
 https://github.com/JohnSauter.
 
-## URLs:
+## Walkthrough
 
-## Screenshot
+The walkthrough video is at this URL:
+![walkthrough video](./assets/videos/Walkthrough%20of%20Professional%20README%20Generator.mp4)
