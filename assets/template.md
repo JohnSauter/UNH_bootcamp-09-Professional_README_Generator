@@ -49,9 +49,9 @@
 ## Questions
 
 If you have any questions, contact me.
-{{#e-mail_address}}
-My e-mail address is {{e-mail_address}}.
-{{/e-mail_address}}
+{{#e_mail_address}}
+My e-mail address is {{e_mail_address}}.
+{{/e_mail_address}}
 {{#github_user_name}}
 My github user name is {{github_user_name}}.  See my profile at
 https://github.com/{{github_user_name}}.

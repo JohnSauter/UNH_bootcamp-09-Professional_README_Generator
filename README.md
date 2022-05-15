@@ -2,7 +2,7 @@
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 ## Description
 
-construct a README file from answers to questions
+Construct a README file from answers to questions.
 
 ## Table of Contents
 
@@ -12,23 +12,23 @@ construct a README file from answers to questions
 
 ## Installation
 
-download from github
+Download from GitHub.  See below for the URL.
 
 ## Usage
 
-answer the questions then upload the file to his GitHub project
+Answer the questions, examine and improve the generated README file, then include it in your project.
 
 ## License
 GNU AGPLv3
 
 ## Contributing
-send me e-mail
+If you wish to continbute to ths project, send me e-mail.  My e-mail address is below.
 
 ## Tests
-run it with various answers to the questions
+You can test this package by running it with various answers to the questions.
 
 ## Features
-some information is optional, and if not provided the README section will be omitted
+Some information is optional, and if not provided the appropriate README section will be omitted.
 ## Questions
 
 If you have any questions, contact me.
@@ -36,3 +36,6 @@ My e-mail address is John_Sauter@systemeyescomputerstore.com.
 My github user name is JohnSauter.  See my profile at
 https://github.com/JohnSauter.
 
+## URLs:
+
+## Screenshot
