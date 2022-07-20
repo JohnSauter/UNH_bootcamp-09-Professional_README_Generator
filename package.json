@@ -2,8 +2,9 @@
   "name": "unh_bootcamp-09-professional_readme_generator",
   "version": "1.0.0",
   "description": "Dynamically generate a professional README.md from a user's input.",
-  "main": "index.js",
+  "exports": "./index.js",
   "scripts": {
+    "start": "index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,8 +17,9 @@
     "url": "https://github.com/JohnSauter/UNH_bootcamp-09-Professional_README_Generator/issues"
   },
   "homepage": "https://github.com/JohnSauter/UNH_bootcamp-09-Professional_README_Generator#readme",
+  "type": "module",
   "dependencies": {
-    "inquirer": "^8.2.4",
+    "inquirer": "^9.0.2",
     "mustache": "^4.2.0"
   }
 }

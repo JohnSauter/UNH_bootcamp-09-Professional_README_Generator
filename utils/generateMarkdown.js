@@ -1,5 +1,7 @@
-const Mustache = require ("mustache");
-const fs = require ("fs");
+import Mustache from "mustache";
+import fs from "fs";
+//const Mustache = require ("mustache");
+//const fs = require ("fs");
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -57,4 +59,5 @@ function generateMarkdown(data) {
   return result;
 };
 
-module.exports = generateMarkdown;
+//module.exports = generateMarkdown;
+export default generateMarkdown;
